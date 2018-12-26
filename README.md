@@ -15,5 +15,5 @@ example of 3 positive, 1 negative, and 12 neutral tweets on a query track for "2
 |NEUTRAL |12   |<br>
 +--------+-----+<br>
 
-Usage: python3 kafkaTweetProducer.py <host> <port> <topic_name> <tracks>
+Usage: python3 kafkaTweetProducer.py <host> <port> <topic_name> <tracks> <br>
 Usage: spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.2.0 tweetSentimentCount.py <host> <port> <topic_name>
