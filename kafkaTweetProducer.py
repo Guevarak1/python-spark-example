@@ -48,7 +48,7 @@ def connect_to_twitter(kafkaProducer, tracks):
 if __name__ == "__main__":
 
 	if len(sys.argv) < 5: 
-		print("Usage: python m03_demo02_kafkaTweetProducer.py <host> <port> <topic_name> <tracks>")
+		print("Usage: python kafkaTweetProducer.py <host> <port> <topic_name> <tracks>")
 		exit(-1)
 
 	host = sys.argv[1]
